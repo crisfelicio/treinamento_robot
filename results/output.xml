@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-02-21T18:20:51.158088" rpa="false" schemaversion="5">
+<suite id="s1" name="Treinamento Robot" source="C:\Users\sankhya\Documents\treinamento_robot\treinamento_robot">
+<suite id="s1-s1" name="Exemplo01" source="C:\Users\sankhya\Documents\treinamento_robot\treinamento_robot\Exemplo01.robot">
+<test id="s1-s1-t1" name="Imprime dicionário" line="6">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[nome]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:20:51.244335" elapsed="0.001306"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[Sobrenome]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:20:51.247170" elapsed="0.001003"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[Idade]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:20:51.249185" elapsed="0.000998"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[Cidade]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:20:51.250183" elapsed="0.002011"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[UF]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:20:51.253201" elapsed="0.001434"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${PESSOA}[CEP]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-02-21T18:20:51.254635" elapsed="0.003565"/>
+</kw>
+<status status="PASS" start="2024-02-21T18:20:51.242133" elapsed="0.017087"/>
+</test>
+<status status="PASS" start="2024-02-21T18:20:51.235961" elapsed="0.025465"/>
+</suite>
+<status status="PASS" start="2024-02-21T18:20:51.170698" elapsed="0.094659"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Treinamento Robot">Treinamento Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Exemplo01">Treinamento Robot.Exemplo01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
